@@ -30,5 +30,6 @@ def main():
     lightbulb = Lightbulb(100, 100, True, "Philips")
     lightbulb.to_string()
 
+
 if __name__ == "__main__":
     main()
