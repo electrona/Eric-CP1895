@@ -1,5 +1,12 @@
 class Lightbulb:
-    def __init__(self, wattage: int, brightness: int, is_led: bool, brand: str, is_on: bool = False):
+    def __init__(
+        self,
+        wattage: int,
+        brightness: int,
+        is_led: bool,
+        brand: str,
+        is_on: bool = False,
+    ):
         self.wattage = wattage
         self.brightness = brightness
         self.is_led = is_led

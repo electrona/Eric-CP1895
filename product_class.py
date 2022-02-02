@@ -14,7 +14,7 @@ class Product:
 
 def main():
     product1 = Product("Stanley 13 Ounce Wood Hammer", 12.99, 62)
-    product2 = Product("National Hardware 3/4\" Wire Nails", 5.06, 0)
+    product2 = Product('National Hardware 3/4" Wire Nails', 5.06, 0)
 
     print("PRODUCTS")
     print("=" * 8)
@@ -25,7 +25,7 @@ def main():
     print(f"Discount: {product1.discountPercent}%")
     print(f"Discount Price: ${product1.get_discount_price():.2f}")
     print(f"Discount Amount: ${product1.get_discount_amount():.2f}\n")
-    
+
     print(f"Name: {product2.name}")
     print(f"Price: ${product2.price:.2f}")
     print(f"Discount Percent: {product2.discountPercent}%")
